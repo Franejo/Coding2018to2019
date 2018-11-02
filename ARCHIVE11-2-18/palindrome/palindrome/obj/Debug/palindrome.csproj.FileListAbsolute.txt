@@ -1,0 +1,14 @@
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.exe.config
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.exe
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.pdb
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.csprojAssemblyReference.cache
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.csproj.CoreCompileInputs.cache
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.exe
+C:\Users\162467\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.pdb
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.csprojAssemblyReference.cache
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.csproj.CoreCompileInputs.cache
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.exe
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\obj\Debug\palindrome.pdb
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.exe.config
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.exe
+C:\Users\thero\OneDrive - Academy District 20\Programs\palindrome\palindrome\bin\Debug\palindrome.pdb

@@ -1,0 +1,6 @@
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\bin\Debug\conversion.exe.config
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\bin\Debug\conversion.exe
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\bin\Debug\conversion.pdb
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\obj\Debug\conversion.csproj.CoreCompileInputs.cache
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\obj\Debug\conversion.exe
+C:\Users\162467\OneDrive - Academy District 20\Programs\conversion\conversion\obj\Debug\conversion.pdb
