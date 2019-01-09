@@ -35,9 +35,12 @@ namespace ConsoleApp1
         // peek
         public int Peek()
         {
-
-            return holder[holder.Count - 1];
-
+            if (holder.Count > 1)
+            {
+                return holder[holder.Count - 1];
+            }
+            else
+                return 0;
         }
         // print
         public void Print()
