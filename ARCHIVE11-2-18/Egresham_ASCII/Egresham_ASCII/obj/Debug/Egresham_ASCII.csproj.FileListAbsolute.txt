@@ -1,7 +1,0 @@
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\obj\Debug\Egresham_ASCII.csprojAssemblyReference.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\obj\Debug\Egresham_ASCII.csproj.CoreCompileInputs.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\bin\Debug\Egresham_ASCII.exe.config
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\bin\Debug\Egresham_ASCII.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\bin\Debug\Egresham_ASCII.pdb
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\obj\Debug\Egresham_ASCII.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_ASCII\Egresham_ASCII\obj\Debug\Egresham_ASCII.pdb

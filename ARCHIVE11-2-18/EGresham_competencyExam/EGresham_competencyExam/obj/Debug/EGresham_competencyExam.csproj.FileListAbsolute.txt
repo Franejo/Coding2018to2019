@@ -1,7 +1,0 @@
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\bin\Debug\EGresham_competencyExam.exe.config
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\bin\Debug\EGresham_competencyExam.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\bin\Debug\EGresham_competencyExam.pdb
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\obj\Debug\EGresham_competencyExam.csprojAssemblyReference.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\obj\Debug\EGresham_competencyExam.csproj.CoreCompileInputs.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\obj\Debug\EGresham_competencyExam.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\EGresham_competencyExam\EGresham_competencyExam\obj\Debug\EGresham_competencyExam.pdb

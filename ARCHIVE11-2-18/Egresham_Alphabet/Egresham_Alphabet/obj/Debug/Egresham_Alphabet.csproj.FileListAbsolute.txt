@@ -1,6 +1,0 @@
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\bin\Debug\Egresham_Alphabet.exe.config
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\bin\Debug\Egresham_Alphabet.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\bin\Debug\Egresham_Alphabet.pdb
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\obj\Debug\Egresham_Alphabet.csproj.CoreCompileInputs.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\obj\Debug\Egresham_Alphabet.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_Alphabet\Egresham_Alphabet\obj\Debug\Egresham_Alphabet.pdb

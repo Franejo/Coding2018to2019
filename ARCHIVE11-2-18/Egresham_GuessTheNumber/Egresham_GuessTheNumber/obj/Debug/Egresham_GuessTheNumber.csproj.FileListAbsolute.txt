@@ -1,7 +1,0 @@
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\obj\Debug\Egresham_GuessTheNumber.csprojAssemblyReference.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\obj\Debug\Egresham_GuessTheNumber.csproj.CoreCompileInputs.cache
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\bin\Debug\Egresham_GuessTheNumber.exe.config
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\bin\Debug\Egresham_GuessTheNumber.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\bin\Debug\Egresham_GuessTheNumber.pdb
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\obj\Debug\Egresham_GuessTheNumber.exe
-C:\Users\162467\OneDrive - Academy District 20\Programs\Egresham_GuessTheNumber\Egresham_GuessTheNumber\obj\Debug\Egresham_GuessTheNumber.pdb
