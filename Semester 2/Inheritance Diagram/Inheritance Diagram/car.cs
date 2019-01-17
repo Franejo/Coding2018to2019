@@ -8,17 +8,17 @@ namespace Inheritance_Diagram
 {
    abstract class car: Motorized_vehicle
     {
-        protected float zero2sixty = 0f;
+
         protected int numofwheel = 0;
-        protected string cartype;
+        
         protected string carengine;
 
-        public car(string cartype , string carengine, int numofwheel, float zero2sixty, float weight, float height, bool isloud, bool isfast)
-            : base (weight, height, isloud, isfast)
+        public car(string make, string carengine, int numofwheel, float zero2sixty, float weight, float height, bool isloud, bool isfast)
+            : base (weight, height, isloud, isfast, make, zero2sixty)
         {
-            this.zero2sixty = zero2sixty;
+           
             this.numofwheel = numofwheel;
-            this.cartype = cartype;
+           
             this.carengine = carengine;
         }
     }
