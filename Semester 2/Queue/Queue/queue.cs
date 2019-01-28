@@ -4,20 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Queue
 {
-    class Stack
+    class queue
     {
+        
+        
         List<int> holder = new List<int>();
-      
-        public Stack()
-        {
-        }
 
         //push
         public void Enqueue(int val)
         {
-            
+
             holder.Add(val);
         }
         //pop
@@ -45,10 +43,13 @@ namespace ConsoleApp1
         // print
         public void Print()
         {
-            for(int i = 0;i< holder.Count - 1; i++)
+            for (int i = 0; i < holder.Count - 1; i++)
             {
                 Console.WriteLine(holder[i]);
             }
         }
     }
 }
+        
+
+   

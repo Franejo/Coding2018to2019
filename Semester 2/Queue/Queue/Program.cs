@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Queue
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Stack myStack = new Stack();
+            queue myQueue = new queue();
             int whytho;
             do
             {
@@ -28,24 +28,22 @@ namespace ConsoleApp1
                     Console.WriteLine("Yo chungus put in a numba");
                     int numb = int.Parse(Console.ReadLine());
 
-                    myStack.Enqueue(numb);
+                    myQueue.Enqueue(numb);
                 }
                 if (whytho == 2)
                 {
-                    
-                   Console.WriteLine(myStack.Dequeue());
+
+                    Console.WriteLine(myQueue.Dequeue());
                 }
                 if (whytho == 3)
                 {
-                    Console.WriteLine(myStack.Peek());
+                    Console.WriteLine(myQueue.Peek());
                 }
                 if (whytho == 4)
                 {
-                    myStack.Print();
+                    myQueue.Print();
                 }
             } while (whytho != 5);
-           
         }
-
     }
 }
