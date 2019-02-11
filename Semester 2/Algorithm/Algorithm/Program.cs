@@ -76,22 +76,79 @@ namespace Algorithm
             
 
 
-                string text2 = AppDomain.CurrentDomain.BaseDirectory + @"Prob01.in.txt";
+                string text2 = AppDomain.CurrentDomain.BaseDirectory + @"Prob02.in.txt";
 
-                List<string> file2 = new List<string>();
+                List<List<string>> file2 = new List<List<string>>();
                 using (StreamReader sr = new StreamReader(text2))
                 {
                     string line;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        file2.Add(line);
-                    }
+                        file2.Add(new List<string>());
+                            string[] Arrays = line.Split(' ');
+                            for (int i = 0; i < Arrays.Length; i++)
+                            {
+                                file2[file2.Count - 1].Add(Arrays[i]);
+                            }
+                        }
                 }
+ 
                     for (int i = 0; i < file2.Count; i++)
                     {
+                        bool isascending = true;
+                        bool isdescending = true;
+                        bool isvalid = true;
+                        for (int j = 0; j < file2[i].Count - 1; j++)
+                        {
+                            int right = 0;
+                            int left = 0;
+                            if(!int.TryParse(file2[i][j], out left))
+                            {
+                                Console.WriteLine("Invalid");
+                                isvalid = false;
+                                break;
+                            }
+                            if (!int.TryParse(file2[i][j + 1], out right))
+                            {
+                                Console.WriteLine("Invalid");
+                                isvalid = false;
+                                break;
+
+                            }
+                            if(left < right)
+                            {
+                                isdescending = false;
+                                
+                            }
+                            if(left > right)
+                            {
+                                isascending = false;
+                                
+                            }
+                        }
+                        
+                        if(isvalid == true)
+                        {
+                            if (isascending == false && isdescending == false)
+                            {
+                                Console.WriteLine("Random");
+                            }
+                            else if (isdescending == true)
+                            {
+                                Console.WriteLine("is descending");
+                            }
+                            else if (isascending == true)
+                            {
+                                Console.WriteLine("is ascending");
+                            }
+                        }
+                       
 
                     }
+                    Console.ReadLine();
+
                     break;
+
             }
             
         }
