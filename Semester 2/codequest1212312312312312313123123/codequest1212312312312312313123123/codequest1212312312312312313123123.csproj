@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FCE09BBB-B847-48E3-90AD-6F4E85942FC7}</ProjectGuid>
+    <ProjectGuid>{DDE67924-3CF1-4091-941D-7F23761A26D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Queue</RootNamespace>
-    <AssemblyName>Queue</AssemblyName>
+    <RootNamespace>codequest1212312312312312313123123</RootNamespace>
+    <AssemblyName>codequest1212312312312312313123123</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Currencies.cs" />
-    <Compile Include="interfaces.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="queue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -10,7 +10,10 @@ namespace Queue
     {
         static void Main(string[] args)
         {
-            queue myQueue = new queue();
+            QueueGeneric<float> qf = new QueueGeneric<float>();
+            QueueGeneric<int> qi = new QueueGeneric<int>();
+            QueueGeneric<string> qs = new QueueGeneric<string>();
+
             int whytho;
             do
             {
@@ -28,22 +31,23 @@ namespace Queue
                     Console.WriteLine("Yo chungus put in a numba");
                     int numb = int.Parse(Console.ReadLine());
 
-                    myQueue.Enqueue(numb);
+                    qi.Enqueue(numb);
                 }
                 if (whytho == 2)
                 {
 
-                    Console.WriteLine(myQueue.Dequeue());
+                    Console.WriteLine(qi.Dequeue());
                 }
                 if (whytho == 3)
                 {
-                    Console.WriteLine(myQueue.Peek());
+                    Console.WriteLine(qi.Peek());
                 }
                 if (whytho == 4)
                 {
-                    myQueue.Print();
+                    qi.Print();
                 }
             } while (whytho != 5);
+            Console.WriteLine();
         }
     }
 }

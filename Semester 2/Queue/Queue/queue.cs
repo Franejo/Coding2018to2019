@@ -6,48 +6,58 @@ using System.Threading.Tasks;
 
 namespace Queue
 {
-    class queue
+    class QueueGeneric<t> : IEmptyable, IPrintable, ICountable where t : IComparable
     {
         
         
-        List<int> holder = new List<int>();
+        List<t> queue = new List<t>();
+        public int Count()
+        {
+            throw new NotImplementedException();
+        }
+        public void Empty()
+        {
+            throw new NotImplementedException();
 
+        }
         //push
-        public void Enqueue(int val)
+        public void Enqueue(t val)
         {
 
-            holder.Add(val);
+            queue.Insert(0,val);
         }
         //pop
-        public int Dequeue()
+        public t Dequeue()
         {
-            if (holder.Count > 1)
+            if (queue.Count < 1)
             {
-                int Boolin = holder[0];
-                holder.RemoveAt(0);
+                t Boolin = queue[0];
+                queue.RemoveAt(0);
                 return Boolin;
             }
-            else
-                return 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+            else return default(t);
+            
+                 
         }
         // peek
-        public int Peek()
+        public t Peek()
         {
-            if (holder.Count > 1)
+            if (queue.Count < 1)
             {
-                return holder[0];
+                return queue[queue.Count - 1];
             }
-            else
-                return 0;
+            else return default(t);
         }
         // print
         public void Print()
         {
-            for (int i = 0; i < holder.Count - 1; i++)
+            for (int i = 0; i < queue.Count - 1; i++)
             {
-                Console.WriteLine(holder[i]);
+                Console.WriteLine(queue[i]);
             }
         }
+
+      
     }
 }
         
