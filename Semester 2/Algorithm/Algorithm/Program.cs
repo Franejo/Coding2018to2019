@@ -14,7 +14,9 @@ namespace Algorithm
             int answer = 0;
             Console.WriteLine("1 - Problem 1");
             Console.WriteLine("2 - problem 2");
-          answer = int.Parse( Console.ReadLine());
+            Console.WriteLine("3 - problem 3");
+
+            answer = int.Parse( Console.ReadLine());
             switch(answer)
             {case 1:
                 string text = AppDomain.CurrentDomain.BaseDirectory + @"Prob01.in.txt";
@@ -148,6 +150,39 @@ namespace Algorithm
                     Console.ReadLine();
 
                     break;
+
+                case 3:
+                    string text4 = AppDomain.CurrentDomain.BaseDirectory + @"Prob04.in.txt";
+
+                    List<string> file3 = new List<string>();
+                    using (StreamReader sr = new StreamReader(text4))
+                    {
+                        string line;
+                        while ((line = sr.ReadLine()) != null)
+                        {
+                            file3.Add(line);
+                        }
+                    }
+                    int temp = 0;
+                    int tt5l = 0;
+                    for(int i = 0; i < file3.Count; i++)
+                    {
+
+                        temp = int.Parse(file3[i]);
+                        tt5l = temp;
+                        temp -= 1;
+                       
+                        while (temp > 0)
+                        {
+                            tt5l = (tt5l * temp);
+                            temp--;
+                        }
+                        Console.WriteLine(tt5l);
+                    }
+                    Console.ReadLine();
+
+                    break;
+                
 
             }
             
