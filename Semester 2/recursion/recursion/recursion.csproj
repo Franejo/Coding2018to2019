@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{19E17D3A-8098-4741-8319-CC73C62694E7}</ProjectGuid>
+    <ProjectGuid>{C2E67EE5-0E57-4572-8CF2-C5B17BACE984}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hunger</RootNamespace>
-    <AssemblyName>Hunger</AssemblyName>
+    <RootNamespace>recursion</RootNamespace>
+    <AssemblyName>recursion</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hungry.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

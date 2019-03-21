@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hunger
 {
-    class Program
+    class Hungry
     {
-        static void Main(string[] args)
-        {
-
-        }
+        List<int> level = new List<int>();
     }
 }
