@@ -18,7 +18,7 @@ namespace recursion
                 integers.Sort();
                 
             }
-            bool result = SearchIntList(integers, 12);
+            bool result = SearchIntList(integers, 20);
             Console.WriteLine(result);
         }
         public static bool SearchIntList(List<int> integers,int n)
