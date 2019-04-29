@@ -44,11 +44,19 @@ namespace Binary_Tree
                 Insert(yeet.Leftchild, val);
             }
         }
-        public bool Remove(char val)
+        public void Remove(char val)
         {
-            throw new NotImplementedException();
+            if(Root ==null)
+            {
+                return false;
+            }
+            else
+            {
+                Remove(Root, val);
+            }
+
         }
-        private bool Remove(Node val, char value)
+        private Node Remove(Node val, char value)
         {
             throw new NotImplementedException();
         }
