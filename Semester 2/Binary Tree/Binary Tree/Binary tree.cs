@@ -7,11 +7,11 @@ namespace Binary_Tree
         public int Height;
 
         public int Count;
-        private int CountRecursive(Node val)
+        private int CountRucursive(Node val)
         {
             throw new NotImplementedException();
-
         }
+
         public void Insert(char val)
         {
             if (Root == null)
@@ -23,44 +23,87 @@ namespace Binary_Tree
                 Insert(Root, val);
             }
         }
-        private void Insert(Node yeet, char val)
+
+        public void Insert(Node cur, char val)
         {
-            if (val >= yeet.Value && yeet.Rightchild == null)
+            if (val >= cur.Value && cur.Rightchild == null)
             {
-                yeet.Rightchild = new Node(val);
+                cur.Rightchild = new Node(val);
                 return;
             }
-            else if (val < yeet.Value && yeet.Leftchild == null)
+
+            if (val < cur.Value && cur.Leftchild == null)
             {
-                yeet.Leftchild = new Node(val);
+                cur.Leftchild = new Node(val);
                 return;
             }
-            if (val >= yeet.Value)
+
+            if (val >= cur.Value)
             {
-                Insert(yeet.Rightchild, val);
+                Insert(cur.Rightchild, val);
             }
-            else if (val < yeet.Value)
+
+            else if (val < cur.Value)
             {
-                Insert(yeet.Leftchild, val);
+                Insert(cur.Leftchild, val);
             }
         }
+
         public void Remove(char val)
         {
-            if(Root ==null)
+
+            if (Root == null)
             {
-                return false;
+                return;
             }
             else
             {
-                Remove(Root, val);
+                Root = Remove(Root, val);
             }
+        }
+
+        private Node Remove(Node cur, char val)
+        {
+
+
+
+            if (cur == null) return cur;
+
+            if (val < cur.Value)
+                cur.Leftchild = Remove(cur.Leftchild, val);
+            else if (val > cur.Value)
+                cur.Rightchild = Remove(cur.Rightchild, val);
+
+            else
+            {
+                if (cur.Leftchild == null)
+                    return cur.Rightchild;
+                else if (cur.Rightchild == null)
+                    return cur.Leftchild;
+
+
+                cur.Value = MinValue(cur.Rightchild);
+
+                cur.Rightchild = Remove(cur.Rightchild, cur.Value);
+            }
+            return cur;
+
 
         }
-        private Node Remove(Node val, char value)
+
+        private char MinValue(Node yeet)
         {
-            throw new NotImplementedException();
+            char minv = yeet.Value;
+            while (yeet.Leftchild != null)
+            {
+                minv = yeet.Leftchild.Value;
+                yeet = yeet.Leftchild;
+            }
+            return minv;
         }
-        public bool Search(char val)
+
+
+        public bool Search(char value)
         {
             if (Root == null)
             {
@@ -68,68 +111,107 @@ namespace Binary_Tree
             }
             else
             {
-                return Search(Root, val);
+                return Search(Root, value);
             }
         }
-        private bool Search(Node cur, char value)
+
+
+        private bool Search(Node cur, char val)
         {
-            if (value == cur.Value)
+
+
+            if (val == cur.Value)
             {
                 return true;
             }
             else
             {
-
-
-                if (value < cur.Value && cur.Leftchild != null)
+                if (val < cur.Value && cur.Leftchild != null)
                 {
                     cur.Value = cur.Leftchild.Value;
-                    return Search(cur.Leftchild, value);
+                    return Search(cur.Leftchild, val);
 
                 }
-                else if (value > cur.Value && cur.Rightchild != null)
+
+                else if (val > cur.Value && cur.Rightchild != null)
                 {
                     cur.Value = cur.Rightchild.Value;
-                    return Search(cur.Rightchild, value);
-                }
+                    return Search(cur.Rightchild, val);
 
-                else
-                {
-                    return false;
                 }
+                else
+                { return false; }
+
             }
+
         }
+
+        public void PreOrderPrint()
+        {
+            PreOrderPrint(Root);
+        }
+
+
+        private void PreOrderPrint(Node cur)
+        {
+            if (cur == null)
+            {
+                return;
+            }
+
+            Console.Write(cur.Value + ".");
+            PreOrderPrint(cur.Leftchild);
+            PreOrderPrint(cur.Rightchild);
+        }
+
+        public void InOrderPrint()
+        {
+            InOrderPrint(Root);
+        }
+
+        private void InOrderPrint(Node yeet)
+        {
+            if (yeet == null)
+            {
+                return;
+            }
+            InOrderPrint(yeet.Leftchild);
+
+            Console.Write(yeet.Value + ".");
+            InOrderPrint(yeet.Rightchild);
+
+
+        }
+
+        public void PostOrderPrint()
+        {
+            PostOrderPrint(Root);
+        }
+
+        public void PostOrderPrint(Node cur)
+        {
+            if (cur == null)
+            {
+                return;
+            }
+            PostOrderPrint(cur.Leftchild);
+
+
+            PostOrderPrint(cur.Rightchild);
+            Console.Write(cur.Value + ".");
+        }
+
+        public void Print()
+        {
+            BinaryTreePrinter.printNode(Root);
+        }
+
+        ////Extra Credit
+        ///
+
         public void Balance()
         {
 
-        }
-        public void preOrderPrint()
-        {
-
-        }
-        private void PreOrderPrint(Node val)
-        {
-
-        }
-        public void InOrderPrint()
-        {
-
-        }
-        private void InOrderPrint(Node val)
-        {
-
-        }
-        public void PostOrderPrint()
-        {
-
-        }
-        private void PostOrderPrint(Node val)
-        {
-
-        }
-        public void print()
-        {
-            BinaryTreePrinter.printNode(Root);
         }
 
     }
